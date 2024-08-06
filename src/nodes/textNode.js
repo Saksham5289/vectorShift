@@ -6,7 +6,10 @@ export const TextNode = (props) => {
       {...props}
       type="Text"
       inputs={[]}
-      outputs={[{ id: `${props.id}-output` }]}
+      outputs={[]}
+      showName="false"
+      showType="false"
+      addTextInput="true"
     />
   );
 };
